@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Form1</title>
+</head>
+<body>
+  <h4>Fill the following information: </h4> 
+
+<form method="get" action="/process_student">  
+  First Name: <input type="text" name="fname">
+  <br><br>
+  Last Name: <input type="text" name="lname">
+  <br><br>
+  Roll No.: <input type="number" name="rollnum">
+  <br><br>
+  Gender:
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="other">Other
+  <br><br>
+  Games you want to participate in(max 3): <br>
+  <select name="games" multiple>
+  	<option value="cricket">cricket</option>
+  	<option value="badminton">badminton</option>
+  	<option value="tennis">tennis</option>
+  	<option value="hockey">hockey</option>
+  	<option value="kabaddi">kabaddi</option>
+  </select>
+  <br><br>
+  T-Shirt Size: <br>
+  <input type="checkbox" name="size" value="xs">xs<br>
+  <input type="checkbox" name="size" value="s">s<br>
+  <input type="checkbox" name="size" value="m">m<br>
+  <input type="checkbox" name="size" value="l">l<br>
+  <input type="checkbox" name="size" value="xl">xl<br>
+  <br><br>
+  E-Mail Id: 
+  <input type="email" name="email">
+  <br><br>
+  <input type="submit" value="submit" >  
+</form>
+
+</body>
+</html>
